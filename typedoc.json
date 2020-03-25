@@ -1,0 +1,19 @@
+{
+  "name": "skeiðjs",
+  "mode": "modules",
+  "out": "./docs/",
+  "json": "./docs/docs.json",
+  "exclude": "**/*+(e2e|spec|index|internal.index).ts",
+  "theme": "default",
+  "ignoreCompilerErrors": "true",
+  "excludeNotExported": "true",
+  "excludeExternals": true,
+  "target": "ES6",
+  "moduleResolution": "node",
+  "preserveConstEnums": "true",
+  "stripInternal": "true",
+  "suppressExcessPropertyErrors": "true",
+  "suppressImplicitAnyIndexErrors": "true",
+  "module": "commonjs",
+  "hideGenerator": true
+}

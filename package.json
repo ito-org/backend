@@ -1,0 +1,27 @@
+{
+  "name": "bandemic-backend",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./target/application.js",
+    "build": "gulp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mongoose": "^5.7.7",
+    "@types/node": "^13.9.2",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.5",
+    "node-rsa": "^1.0.7",
+    "rxjs": "^6.5.4",
+    "skeidjs": "^1.8.0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "include": [
+    "src/main/**/*"
+  ],
+  "compilerOptions": {
+    "rootDir": "./src/main",
+    "outDir": "./target",
+    "noImplicitAny": false,
+    "target": "es5",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "declaration": true,
+    "moduleResolution": "node",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2017"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+# IDE
+/.idea
+/backend.iml
+
+# Dependencies
+/node_modules
+package-lock.json
+
+# Exluded Files
+/target
